@@ -1,6 +1,6 @@
-# Frontend-Designs
+# Frontend-Projects
 
-Welcome to the Frontend-Designs repository! This repository is a collection of my best frontend projects, showcasing a variety of designs and implementations using different frontend technologies. The main tech stacks used here are MERN-Stack, OPL-MERN-Stack, and other cutting-edge frontend technologies integrated with AI.
+Welcome to the `Frontend-Projects` repository! This repository is a collection of my best frontend projects, showcasing a variety of designs and implementations using different frontend technologies. The main tech stacks used here are MERN-Stack, OPL-MERN-Stack, and other cutting-edge frontend technologies integrated with AI.
 
 ## Table of Contents
 
@@ -68,8 +68,8 @@ To run any project locally, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/anas-aqeel/Frontend-Designs.git
-   cd Frontend-Designs
+   git clone https://github.com/anas-aqeel/Frontend-Projects.git
+   cd Frontend-Projects
    ```
 
 2. Navigate to the project directory you want to run.
@@ -102,5 +102,5 @@ For any queries or collaborations, you can also reach out to me via email at: an
 
 ---
 
-Thank you for visiting my Frontend-Designs repository. I hope you find the projects here useful and inspiring!
+Thank you for visiting my Frontend-Projects repository. I hope you find the projects here useful and inspiring!
 
