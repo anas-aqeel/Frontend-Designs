@@ -60,7 +60,7 @@ Innovative projects that incorporate AI technologies into the frontend. From cha
 - **Next.js**
 - **CMS (Strapi, Sanity, etc.)**
 - **MERN-Stack (MongoDB, Express.js, React, Node.js)**
-- **OPL-MERN-Stack (Optimized and Performance-tuned MERN Stack)**
+- **OPL-MERN-Stack (OpenAI-Pinecone-Langchain & MERN Stack)**
 
 ## Installation
 
