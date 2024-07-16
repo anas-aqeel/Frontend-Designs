@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon" />
+
+    <title>Animated CSS Clock</title>
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Animated CSS Clock</h1>
+    <div class="block">
+      <div class="container">
+        <div class="clock">
+          <div class="time">
+            <span id="hours">08</span>
+            <span>:</span>
+            <span id="minutes">37</span>
+            <span>:</span>
+            <span id="seconds">20</span>
+            <span id="period">PM</span>
+          </div>
+          <div class="date">
+            <span id="day">Mar, Sunday 6</span>
+          </div>
+          <div class="flex">
+            <label class="label-toggle" for="toggle-format"> 24-Hour Format </label>
+
+            <div class="switch">
+              <input type="checkbox" name="toggle" id="toggle-format" />
+              <label for="toggle"><i></i></label>
+              <span></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
