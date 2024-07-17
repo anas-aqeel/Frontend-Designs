@@ -1,7 +1,7 @@
 
 # Travel Destinations Carousel
 
-![Demo Image](images/demo.png)
+![Demo Image](images/demo.gif)
 
 ## Live Demo
 [View Live Demo](https://travel-destinations-gamma.vercel.app/)
@@ -27,25 +27,38 @@ This project is a carousel design slider showcasing beautiful travel destination
 
 ## Destinations
 The carousel features the following travel destinations:
-1. **Paris, France**: Iconic landmarks like the Eiffel Tower, Louvre Museum, and Notre-Dame Cathedral. Charming streets and the Seine River.
-
-    ![Paris](images/paris.jpg)
-2. **Tokyo, Japan**: Blend of traditional and modern life. Street life, temples, Japanese cuisine, gardens, and Tokyo Tower.
-
-    ![Tokyo](images/japan.jpeg)
-3. **Sydney, Australia**: Stunning harbor, Sydney Opera House, Harbour Bridge, Bondi Beach, and coastal views.
-
-    ![Sydney](images/sydney.jpg)
-4. **New York, USA**: Times Square, Central Park, Statue of Liberty, museums, Broadway shows, and nightlife.
-
-    ![New York](images/newyork.jpg)
-5. **Rome, Italy**: Colosseum, Vatican City, Roman Forum, Italian cuisine, and lively piazzas.
-
-    ![Rome](images/rome.jpg)
-6. **Cape Town, South Africa**: Table Mountain, Cape of Good Hope, Robben Island, Waterfront, and scenic drives.
-    
-    ![Cape Town](images/capetown.jpg)
-
+<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px;">
+    <div style="flex: 1 1 360px; max-width: 420px; text-align: center;">
+        <img src="images/paris.jpg" alt="Paris" style="width: 100%;">
+        <h2>Paris, France</h2>
+        <p>Iconic landmarks like the Eiffel Tower, Louvre Museum, and Notre-Dame Cathedral. Charming streets and the Seine River.</p>
+    </div>
+    <div style="flex: 1 1 360px; max-width: 420px; text-align: center;">
+        <img src="images/japan.jpeg" alt="Tokyo" style="width: 100%;">
+        <h2>Tokyo, Japan</h2>
+        <p>Blend of traditional and modern life. Street life, temples, Japanese cuisine, gardens, and Tokyo Tower.</p>
+    </div>
+    <div style="flex: 1 1 360px; max-width: 420px; text-align: center;">
+        <img src="images/sydney.jpg" alt="Sydney" style="width: 100%;">
+        <h2>Sydney, Australia</h2>
+        <p>Stunning harbor, Sydney Opera House, Harbour Bridge, Bondi Beach, and coastal views.</p>
+    </div>
+    <div style="flex: 1 1 360px; max-width: 420px; text-align: center;">
+        <img src="images/newyork.jpg" alt="New York" style="width: 100%;">
+        <h2>New York, USA</h2>
+        <p>Times Square, Central Park, Statue of Liberty, museums, Broadway shows, and nightlife.</p>
+    </div>
+    <div style="flex: 1 1 360px; max-width: 420px; text-align: center;">
+        <img src="images/rome.jpg" alt="Rome" style="width: 100%;">
+        <h2>Rome, Italy</h2>
+        <p>Colosseum, Vatican City, Roman Forum, Italian cuisine, and lively piazzas.</p>
+    </div>
+    <div style="flex: 1 1 360px; max-width: 420px; text-align: center;">
+        <img src="images/capetown.jpg" alt="Cape Town" style="width: 100%;">
+        <h2>Cape Town, South Africa</h2>
+        <p>Table Mountain, Cape of Good Hope, Robben Island, Waterfront, and scenic drives.</p>
+    </div>
+</div>
 ## HTML Structure
 The HTML structure includes:
 - A header with navigation links.
