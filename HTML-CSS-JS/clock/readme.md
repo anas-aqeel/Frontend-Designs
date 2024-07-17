@@ -12,11 +12,11 @@ This digital clock features:
 
 ## Demo
 
-![Digital Clock Demo](path_to_your_image/demo_image.png)
+![Digital Clock Demo](https://raw.githubusercontent.com/anas-aqeel/Frontend-Projects/Master/HTML-CSS-JS/clock/images/mock.png)
 
 ## Live Demo
 
-Check out the live demo [here](https://your-live-demo-link.com).
+Check out the live demo [here](https://animated-clock-eight.vercel.app/).
 
 ## Usage
 
