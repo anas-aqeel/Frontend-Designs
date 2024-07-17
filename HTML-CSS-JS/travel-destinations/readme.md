@@ -4,7 +4,7 @@
 ![Demo Image](images/demo.jpg)
 
 ## Live Demo
-[View Live Demo](https://your-live-demo-link.com)
+[View Live Demo](https://travel-destinations-gamma.vercel.app/)
 
 ## Description
 This project is a carousel design slider showcasing beautiful travel destinations around the world. It includes smooth animations, functional buttons, and responsive design to provide an engaging user experience.
