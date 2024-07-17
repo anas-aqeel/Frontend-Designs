@@ -1,7 +1,7 @@
 
 # Travel Destinations Carousel
 
-![Demo Image](images/demo.jpg)
+![Demo Image](images/demo.png)
 
 ## Live Demo
 [View Live Demo](https://travel-destinations-gamma.vercel.app/)
