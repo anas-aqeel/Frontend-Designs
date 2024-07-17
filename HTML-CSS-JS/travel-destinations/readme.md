@@ -27,38 +27,48 @@ This project is a carousel design slider showcasing beautiful travel destination
 
 ## Destinations
 The carousel features the following travel destinations:
-<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px;">
-    <div style="flex: 1 1 360px; max-width: 420px; text-align: center;">
-        <img src="images/paris.jpg" alt="Paris" style="width: 100%;">
-        <h2>Paris, France</h2>
-        <p>Iconic landmarks like the Eiffel Tower, Louvre Museum, and Notre-Dame Cathedral. Charming streets and the Seine River.</p>
-    </div>
-    <div style="flex: 1 1 360px; max-width: 420px; text-align: center;">
-        <img src="images/japan.jpeg" alt="Tokyo" style="width: 100%;">
-        <h2>Tokyo, Japan</h2>
-        <p>Blend of traditional and modern life. Street life, temples, Japanese cuisine, gardens, and Tokyo Tower.</p>
-    </div>
-    <div style="flex: 1 1 360px; max-width: 420px; text-align: center;">
-        <img src="images/sydney.jpg" alt="Sydney" style="width: 100%;">
-        <h2>Sydney, Australia</h2>
-        <p>Stunning harbor, Sydney Opera House, Harbour Bridge, Bondi Beach, and coastal views.</p>
-    </div>
-    <div style="flex: 1 1 360px; max-width: 420px; text-align: center;">
-        <img src="images/newyork.jpg" alt="New York" style="width: 100%;">
-        <h2>New York, USA</h2>
-        <p>Times Square, Central Park, Statue of Liberty, museums, Broadway shows, and nightlife.</p>
-    </div>
-    <div style="flex: 1 1 360px; max-width: 420px; text-align: center;">
-        <img src="images/rome.jpg" alt="Rome" style="width: 100%;">
-        <h2>Rome, Italy</h2>
-        <p>Colosseum, Vatican City, Roman Forum, Italian cuisine, and lively piazzas.</p>
-    </div>
-    <div style="flex: 1 1 360px; max-width: 420px; text-align: center;">
-        <img src="images/capetown.jpg" alt="Cape Town" style="width: 100%;">
-        <h2>Cape Town, South Africa</h2>
-        <p>Table Mountain, Cape of Good Hope, Robben Island, Waterfront, and scenic drives.</p>
-    </div>
-</div>
+
+<table>
+  <tr>
+    <td style="text-align: center; vertical-align: top; width: 50%;">
+      <img src="images/paris.jpg" alt="Paris" style="width: 100%;">
+      <h2>Paris, France</h2>
+      <p>Iconic landmarks like the Eiffel Tower, Louvre Museum, and Notre-Dame Cathedral. Charming streets and the Seine River.</p>
+    </td>
+    <td style="text-align: center; vertical-align: top; width: 50%;">
+      <img src="images/japan.jpeg" alt="Tokyo" style="width: 100%;">
+      <h2>Tokyo, Japan</h2>
+      <p>Blend of traditional and modern life. Street life, temples, Japanese cuisine, gardens, and Tokyo Tower.</p>
+    </td>
+  </tr>
+  <tr>
+    <td style="text-align: center; vertical-align: top; width: 50%;">
+      <img src="images/sydney.jpg" alt="Sydney" style="width: 100%;">
+      <h2>Sydney, Australia</h2>
+      <p>Stunning harbor, Sydney Opera House, Harbour Bridge, Bondi Beach, and coastal views.</p>
+    </td>
+    <td style="text-align: center; vertical-align: top; width: 50%;">
+      <img src="images/newyork.jpg" alt="New York" style="width: 100%;">
+      <h2>New York, USA</h2>
+      <p>Times Square, Central Park, Statue of Liberty, museums, Broadway shows, and nightlife.</p>
+    </td>
+  </tr>
+  <tr>
+    <td style="text-align: center; vertical-align: top; width: 50%;">
+      <img src="images/rome.jpg" alt="Rome" style="width: 100%;">
+      <h2>Rome, Italy</h2>
+      <p>Colosseum, Vatican City, Roman Forum, Italian cuisine, and lively piazzas.</p>
+    </td>
+    <td style="text-align: center; vertical-align: top; width: 50%;">
+      <img src="images/capetown.jpg" alt="Cape Town" style="width: 100%;">
+      <h2>Cape Town, South Africa</h2>
+      <p>Table Mountain, Cape of Good Hope, Robben Island, Waterfront, and scenic drives.</p>
+    </td>
+  </tr>
+</table>
+
+
+
 ## HTML Structure
 The HTML structure includes:
 - A header with navigation links.
