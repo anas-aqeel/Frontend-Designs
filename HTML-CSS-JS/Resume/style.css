@@ -1,0 +1,545 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  vertical-align: baseline;
+  background: transparent;
+}
+body {
+  background: #fff;
+  line-height: 1;
+  text-align: left;
+  font-feature-settings: "liga" 0;
+  -moz-font-feature-settings: "liga" off;
+}
+#document.main-renderer-mcl5 table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  font-size: inherit;
+  color: inherit;
+  width: 100%;
+}
+
+/* START content disc style for LI */
+#document.main-renderer-mcl5 ul,
+#document.main-renderer-mcl5 li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+#document.main-renderer-mcl5 ul li {
+  position: relative;
+  margin: 0;
+  padding-left: 10pt;
+}
+#document.main-renderer-mcl5 ul li:last-child {
+  margin-bottom: 0pt;
+}
+#document.main-renderer-mcl5 ul li:before {
+  content: "\2022";
+  position: absolute;
+  left: 0;
+  font-family: auto;
+  font-size: 6pt;
+}
+/* END content disc style for LI */
+
+#document.main-renderer-mcl5 .brk-all {
+  word-break: break-all;
+}
+#document.main-renderer-mcl5 .disptable {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+}
+#document.main-renderer-mcl5 .section .graphic {
+  display: none;
+}
+#document.main-renderer-mcl5 .section:first-child .graphic {
+  display: block;
+}
+#document.main-renderer-mcl5 .name {
+  font-size: 21pt;
+  line-height: 25pt;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding-left: 10pt;
+  padding-right: 10pt;
+  word-wrap: break-word;
+  height: 67pt;
+  padding-top: 9pt;
+  vertical-align: bottom;
+  display: table-cell;
+}
+#document.main-renderer-mcl5 .bottom-box {
+  clear: both;
+  padding-top: 22.5pt;
+}
+#document.main-renderer-mcl5 .bottom-box .section:first-child {
+  padding-top: 0;
+  margin-top: 0;
+}
+#document.main-renderer-mcl5 .paragraph {
+  position: relative;
+}
+#document.main-renderer-mcl5 .address {
+  position: relative;
+}
+
+#document.main-renderer-mcl5 .name .field,
+#document.main-renderer-mcl5 .paddedline,
+#document.main-renderer-mcl5 .jobtitle {
+  display: block;
+}
+#document.main-renderer-mcl5 .heading:before {
+  background-color: #424242;
+  content: "";
+  height: 100%;
+  width: 100%;
+  opacity: 0.15;
+  left: 0;
+  top: 0;
+  position: absolute;
+}
+
+/*Document*/
+#document.main-renderer-mcl5 {
+  color: #000;
+  line-height: 14pt;
+  position: relative;
+  -webkit-print-color-adjust: exact;
+  word-break: break-word;
+}
+/*FIX for FORCEFULLY making left margin ZERO for CL*/
+#document.main-renderer-mcl5 .skill:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+#document.main-renderer-mcl5 .skill .paragraph {
+  width: 33%;
+  float: left;
+  padding-left: 10pt;
+  padding-bottom: 5pt;
+  box-sizing: border-box;
+}
+#document.main-renderer-mcl5 .skill .paragraph:nth-child(3n + 5) {
+  clear: both;
+}
+#document.main-renderer-mcl5 .skill .field {
+  margin-left: 0;
+  vertical-align: text-top;
+  padding-right: 4pt;
+}
+#document.main-renderer-mcl5 .skill .field:empty {
+  display: inline;
+}
+#document.main-renderer-mcl5.pagesize {
+  box-sizing: border-box;
+}
+#document.main-renderer-mcl5 .section {
+  padding-top: 11.25pt;
+  width: 100%;
+}
+#document.main-renderer-mcl5 .sec-name,
+#document.main-renderer-mcl5 .sec-cntc {
+  display: table-cell;
+  vertical-align: bottom;
+  padding: 0;
+}
+#document.main-renderer-mcl5 .sec-cntc {
+  width: 172pt;
+}
+#document.main-renderer-mcl5 .heading {
+  position: relative;
+  margin-bottom: 11.25pt;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding-left: 7pt;
+}
+#document.main-renderer-mcl5 .sectiontitle {
+  vertical-align: middle;
+}
+#document.main-renderer-mcl5 .singlecolumn li {
+  margin-bottom: 4pt;
+}
+div#document.main-renderer-mcl5 .skill .singlecolumn .field:before,
+div#document.main-renderer-mcl5 .skill .maincolumn .field:before {
+  content: "\2022";
+  position: absolute;
+  left: 0;
+  font-family: auto;
+  font-size: 7pt;
+  font-weight: 400;
+}
+div#document.main-renderer-mcl5 .one-by-three:nth-last-child(1),
+div#document.main-renderer-mcl5 .one-by-three:nth-last-child(2),
+div#document.main-renderer-mcl5 .one-by-three:nth-last-child(3),
+div#document.main-renderer-mcl5 .skill .paragraph:nth-last-child(1),
+div#document.main-renderer-mcl5 .skill .paragraph:nth-last-child(2),
+div#document.main-renderer-mcl5 .skill .paragraph:nth-last-child(3) {
+  padding-bottom: 0;
+}
+
+/*FIX for Re-calculating width of singlecolumn for CL*/
+#document.main-renderer-mcl5 .graphic {
+  float: left;
+  background-color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  width: 63pt;
+  height: 63pt;
+  font-size: 24pt;
+  line-height: 74pt;
+  vertical-align: middle;
+  display: inline;
+  position: relative;
+  font-weight: 700;
+  margin: 2pt;
+}
+#document.main-renderer-mcl5 .datesWrapper {
+  float: right;
+  display: inline-block;
+  margin: 0 0 0 35pt;
+}
+#document.main-renderer-mcl5 .graphic i {
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  border-bottom: 1.5pt solid;
+  display: block;
+  position: relative;
+  left: 0;
+  top: 34pt;
+}
+#document.main-renderer-mcl5 .graphic .text-top {
+  position: absolute;
+  top: -16pt;
+  left: 8pt;
+  font-weight: 500;
+}
+#document.main-renderer-mcl5 .graphic .text-btm {
+  position: absolute;
+  bottom: -21pt;
+  right: 8pt;
+  font-weight: 500;
+}
+#document.main-renderer-mcl5 .graphic .full-name {
+  display: none;
+}
+#document.main-renderer-mcl5 .graphic .full-name:empty + .text-top {
+  top: -2pt;
+  left: 0;
+  right: 0;
+  font-size: 28pt;
+  line-height: 65pt;
+  font-weight: 700;
+}
+#document.main-renderer-mcl5 .graphic .full-name:empty + .text-top + i {
+  display: none;
+}
+#document.main-renderer-mcl5 .city-name {
+  display: inline-block;
+  white-space: nowrap;
+}
+
+#document.main-renderer-mcl5 .cadl-section .one-by-three {
+  width: 31.5%;
+  vertical-align: top;
+  word-wrap: break-word;
+  padding-right: 9pt;
+  flex-basis: 31.5%;
+}
+#document.main-renderer-mcl5 .cadl-section .one-by-three:nth-of-type(3n) {
+  padding-right: 0;
+}
+#document.main-renderer-mcl5 .section .contact-additional {
+  display: flex;
+  flex-wrap: wrap;
+}
+#document.main-renderer-mcl5 .section .txt-bold {
+  font-weight: bold;
+}
+#document.main-renderer-mcl5 .section .flt-right {
+  float: right;
+  display: none !important;
+}
+#document.main-renderer-mcl5 .lang-sec.infobarsec .field .colon,
+#document.main-renderer-mcl5 .skli-sec.infobarsec .field .colon {
+  display: none;
+}
+
+/* #document.main-renderer-mcl5 .section.photo-cv{position:absolute;width:67pt; height:67pt;margin-top:0;padding:0} */
+#document.main-renderer-mcl5 .section.photo-cv {
+  display: table-cell !important;
+  width: 67pt;
+  height: 67pt;
+  margin-top: 0;
+  padding: 0;
+  vertical-align: bottom;
+}
+#document.main-renderer-mcl5 .section.photo-cv span {
+  display: block;
+}
+#document.main-renderer-mcl5 .section.photo-cv img {
+  max-width: 100%;
+  height: 67pt;
+  width: 67pt;
+}
+#document.main-renderer-mcl5 .section.photo-cv + .SECTION_NAME .graphic {
+  display: none;
+}
+
+body {
+  font-feature-settings: "liga" 0;
+  -moz-font-feature-settings: "liga" off;
+}
+#document.main-renderer-mcl5 .clearDiv {
+  clear: both;
+}
+/*css to break long email*/
+#document.main-renderer-mcl5 .address .longEmail {
+  display: block;
+  word-break: break-all;
+}
+#document.main-renderer-mcl5
+  .address
+  > .contactdependency:last-child
+  > .contactSeperator {
+  display: none;
+}
+
+/*New logic for infographic*/
+#document.main-renderer-mcl5 .lang-sec .singlecolumn,
+#document.main-renderer-mcl5 .skli-sec .singlecolumn {
+  display: none;
+}
+#document.main-renderer-mcl5 .lang-sec.infobarsec .infobarpara,
+#document.main-renderer-mcl5 .skli-sec.infotilesec .infotilepara,
+#document.main-renderer-mcl5 .skli-sec.infobarsec .infobarpara {
+  display: block;
+}
+
+/*Infographic*/
+#document.main-renderer-mcl5 .lang-sec,
+#document.main-renderer-mcl5 .skli-sec {
+  font-size: 0;
+}
+#document.main-renderer-mcl5 .lang-sec.infobarsec .field *,
+#document.main-renderer-mcl5 .skli-sec.infobarsec .field * {
+  display: inline;
+}
+#document.main-renderer-mcl5 .lang-sec.infobarsec .paragraph,
+#document.main-renderer-mcl5 .skli-sec.infobarsec .paragraph {
+  display: inline-block;
+  vertical-align: top;
+  padding-bottom: 15pt;
+  margin-top: 0;
+  padding-top: 0 !important;
+}
+#document.main-renderer-mcl5 .lang-sec.infobarsec .singlecolumn,
+#document.main-renderer-mcl5 .skli-sec.infobarsec .singlecolumn {
+  position: relative;
+  font-size: 8pt;
+  line-height: 10pt;
+}
+#document.main-renderer-mcl5 .lang-sec.infobarsec .rating-bar,
+#document.main-renderer-mcl5 .skli-sec.infobarsec .rating-bar {
+  width: 48.5%;
+  clear: both;
+  margin-top: 3pt;
+  border: 0.5pt solid #000;
+  float: left;
+}
+#document.main-renderer-mcl5 .lang-sec.infobarsec .inner-rating,
+#document.main-renderer-mcl5 .skli-sec.infobarsec .inner-rating {
+  background-color: #ef943a;
+  height: 4pt;
+  width: 60%;
+  position: relative;
+}
+#document.main-renderer-mcl5
+  .lang-sec.infobarsec
+  > .paragraph:nth-last-child(1),
+#document.main-renderer-mcl5
+  .lang-sec.infobarsec
+  > .paragraph:nth-last-child(2),
+#document.main-renderer-mcl5
+  .skli-sec.infobarsec
+  > .paragraph:nth-last-child(1),
+#document.main-renderer-mcl5
+  .skli-sec.infobarsec
+  > .paragraph:nth-last-child(2) {
+  padding-bottom: 0 !important;
+}
+
+#document.main-renderer-mcl5 .para_even .singlecolumn {
+  margin-left: 0 !important;
+}
+#document.main-renderer-mcl5 .bottom-box .firstparagraph,
+#document.main-renderer-mcl5 .bottom-box .skill .paragraph,
+#document.main-renderer-mcl5 .bottom-box .skli-sec .paragraph,
+#document.main-renderer-mcl5 .bottom-box .lang-sec .paragraph {
+  padding-top: 0 !important;
+}
+#document.main-renderer-mcl5.MPR .hide-bar .field-ratt {
+  display: none;
+}
+
+#document.main-renderer-mcl5 .inner-lang {
+  display: block;
+  width: 100%;
+}
+#document.main-renderer-mcl5 .inner-lang + .field {
+  clear: both;
+}
+#document.main-renderer-mcl5 .hide-bar .field-ratt,
+#document.main-renderer-mcl5 .hide-only-bar .field-ratt {
+  width: 100% !important;
+}
+#document.main-renderer-mcl5 .hide-only-bar .rating-bar {
+  display: none;
+}
+
+/*Infographic Tiles*/
+#document.main-renderer-mcl5 .lang-sec.infotilesec .paragraph,
+#document.main-renderer-mcl5 .skli-sec .paragraph {
+  display: inline-block;
+  vertical-align: top;
+  padding-bottom: 15pt;
+  margin-top: 0;
+}
+#document.main-renderer-mcl5
+  .lang-sec.infotilesec
+  > .paragraph:nth-last-child(1),
+#document.main-renderer-mcl5
+  .lang-sec.infotilesec
+  > .paragraph:nth-last-child(2),
+#document.main-renderer-mcl5
+  .lang-sec.infotilesec
+  > .paragraph:nth-last-child(3),
+#document.main-renderer-mcl5 .skli-sec > .paragraph:nth-last-child(1),
+#document.main-renderer-mcl5 .skli-sec > .paragraph:nth-last-child(2),
+#document.main-renderer-mcl5 .skli-sec > .paragraph:nth-last-child(3) {
+  padding-bottom: 0 !important;
+}
+
+#document.main-renderer-mcl5 .lang-sec.infotilesec .field *,
+#document.main-renderer-mcl5 .skli-sec .field * {
+  display: inline;
+}
+#document.main-renderer-mcl5 .lang-sec.infotilesec .sliced-rect,
+#document.main-renderer-mcl5 .skli-sec .sliced-rect {
+  height: 6pt;
+  width: 100%;
+  margin-top: 3pt;
+  line-height: 0;
+  clear: both;
+}
+#document.main-renderer-mcl5
+  .lang-sec.infotilesec
+  .sliced-rect
+  .sliced-rect-tile,
+#document.main-renderer-mcl5 .skli-sec .sliced-rect .sliced-rect-tile {
+  height: 100%;
+  background-color: #fff;
+  float: left;
+  margin-right: 3pt;
+}
+#document.main-renderer-mcl5
+  .lang-sec.infotilesec
+  .sliced-rect
+  .sliced-rect-tile:last-child,
+#document.main-renderer-mcl5
+  .skli-sec
+  .sliced-rect
+  .sliced-rect-tile:last-child {
+  margin-right: 0;
+}
+
+/*Rectangular Rating Blocks*/
+#document.main-renderer-mcl5 .sliced-rect .sliced-rect-tile.ratvfill {
+  background-color: #000;
+}
+#document.main-renderer-mcl5 .hide-bar .rating-bar,
+#document.main-renderer-mcl5 .hide-bar .sliced-rect,
+#document.main-renderer-mcl5 .hide-colon .colon {
+  display: none !important;
+}
+#document.main-renderer-mcl5 .singlecolumn.infobarpara .field.field-ratt {
+  margin-left: 2%;
+  width: 48%;
+  float: right;
+  line-height: 10pt;
+  font-size: 8pt;
+}
+
+@media print {
+  #document.main-renderer-mcl5.pagesize {
+    width: 100%;
+  }
+}
+
+

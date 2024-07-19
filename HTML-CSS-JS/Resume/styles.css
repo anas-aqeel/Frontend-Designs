@@ -1,0 +1,149 @@
+#document.main-renderer-mcl5.vmargins {
+    padding-top: 24pt;
+    padding-bottom: 24pt;
+  }
+  #document.main-renderer-mcl5.hmargins {
+    padding-left: 24pt;
+    padding-right: 24pt;
+  }
+  #document.main-renderer-mcl5.fontsize {
+    font-size: 10pt;
+    font-weight: 400;
+    line-height: 16pt;
+  }
+  #document.main-renderer-mcl5 .lang-sec .paragraph *,
+  #document.main-renderer-mcl5 .skli-sec .paragraph * {
+    font-size: 10pt;
+  }
+  #document.main-renderer-mcl5.fontface {
+    font-family: Raleway;
+  }
+  #document.main-renderer-mcl5.pagesize {
+    width: 612pt;
+  }
+  #document.main-renderer-mcl5 .bottom-box .section {
+    padding-top: 11.25pt;
+  }
+  #document.main-renderer-mcl5 .bottom-box .paragraph {
+    padding-top: 11.25pt;
+  }
+  #document.main-renderer-mcl5 .heading {
+    font-size: 12pt;
+    height: 18pt;
+    line-height: 18pt;
+  }
+  #document.main-renderer-mcl5 .heading:before {
+    line-height: 18pt;
+  }
+  #document.main-renderer-mcl5 .name {
+    font-size: 28pt;
+    line-height: 31pt;
+  }
+  #document.main-renderer-mcl5 ul li:before,
+  #document.main-renderer-mcl5
+    .skill
+    .singlecolumn.maincolumn
+    .field:before,
+  #document.main-renderer-mcl5 .skill .maincolumn .field:before {
+    font-size: 9pt !important;
+  }
+  /* Color ribbon styles */
+  #document.main-renderer-mcl5 .graphic {
+    color: #333333;
+    box-shadow: 0 0 0 2pt #333333;
+    -webkit-box-shadow: 0 0 0 2pt #333333;
+    -moz-box-shadow: 0 0 0 2pt #333333;
+  }
+  #document.main-renderer-mcl5 div.name,
+  #document.main-renderer-mcl5 div.sectiontitle {
+    color: #333333;
+  }
+  #document.main-renderer-mcl5 .lang-sec.infobarsec .inner-rating,
+  #document.main-renderer-mcl5 .skli-sec.infobarsec .inner-rating {
+    background-color: #333333;
+  }
+  #document.main-renderer-mcl5 .sectiontitle:before {
+    background-color: #333333;
+  }
+  /* Color ribbon Styles ENDS HERE */
+
+  /*Infographic*/
+  #document.main-renderer-mcl5 .lang-sec.infobarsec .paragraph {
+    width: 32%;
+    padding-right: 1.5%;
+  }
+  #document.main-renderer-mcl5
+    .lang-sec
+    .paragraph:nth-child(3n + 1) {
+    padding-right: 0;
+  }
+  #document.main-renderer-mcl5 .lang-sec .singlecolumn,
+  #document.main-renderer-mcl5 .lang-sec .maincolumn,
+  #document.main-renderer-mcl5 .skli-sec .singlecolumn,
+  #document.main-renderer-mcl5 .skli-sec .maincolumn {
+    margin-left: 0;
+  }
+  #document.main-renderer-mcl5 .lang-sec.infobarsec .singlecolumn,
+  #document.main-renderer-mcl5 .skli-sec.infobarsec .singlecolumn {
+    font-size: 9pt;
+    line-height: 12pt;
+  }
+  #document.main-renderer-mcl5
+    .singlecolumn.infobarpara
+    .field.field-ratt {
+    font-size: 9pt;
+    line-height: 12pt;
+  }
+
+  /*Infographic Skills*/
+  #document.main-renderer-mcl5 .lang-sec.infotilesec .paragraph,
+  #document.main-renderer-mcl5 .skli-sec .paragraph {
+    width: 32%;
+    padding-right: 1.5%;
+  }
+  #document.main-renderer-mcl5
+    .lang-sec.infotilesec
+    .paragraph:nth-child(3n + 1),
+  #document.main-renderer-mcl5
+    .skli-sec
+    .paragraph:nth-child(3n + 1) {
+    padding-right: 0;
+  }
+  #document.main-renderer-mcl5 .wrap-wrd {
+    word-wrap: break-word;
+  }
+
+  /* Builder end css */
+  #document.main-renderer-mcl5 .bottom-box .sortable-item .section {
+    margin-top: 11.25pt;
+  }
+
+  /* PDF specific code */
+  #document.main-renderer-mcl5.for-pdf
+    .lang-sec.infobarsec
+    .inner-rating,
+  #document.main-renderer-mcl5.for-pdf
+    .skli-sec.infobarsec
+    .inner-rating {
+    z-index: -1;
+  }
+
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    #document.main-renderer-mcl5.hmargins {
+      padding-left: 9.600000000000001pt;
+      padding-right: 9.600000000000001pt;
+    }
+  }
+
+  /*  used LRMRM for mobile  */
+  @media only screen and (max-width: 767px) {
+    #document.main-renderer-mcl5.hmargins {
+      padding-left: 9.400000000000002pt;
+      padding-right: 9.400000000000002pt;
+    }
+  }
+  @supports (-webkit-touch-callout: none) {
+    #document.main-renderer-mcl5 .bottom-box {
+      padding-top: 10pt;
+    }
+  }
