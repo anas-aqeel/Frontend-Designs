@@ -4,70 +4,81 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WhatsApp Web</title>
-    <link rel="shortcut icon" href="./images/logo.svg" type="image/x-icon">
+    <link rel="stylesheet" id="loader-style" href="./pages/loader.css" />
+    <link rel="stylesheet" href="./pages/content.css" />
     <style>
-      .fade {
-        opacity: 1;
-        transition: opacity 1s;
-      }
-      .fade-out {
-        opacity: 0;
+      .hidden {
+        display: none;
       }
     </style>
-    <script>
-      document.addEventListener("DOMContentLoaded", function () {
-        // Function to load an HTML file into a container
-        function loadFile(url, container, callback) {
-          fetch(url)
-            .then((response) => response.text())
-            .then((data) => {
-              container.innerHTML = data;
-              if (callback) callback();
-            });
-        }
-
-        // Function to handle smooth transitions
-        function fadeOut(element, callback) {
-          element.classList.add("fade-out");
-          setTimeout(callback, 1000); // match the transition duration
-        }
-
-        function fadeIn(element) {
-          element.classList.add("fade");
-          setTimeout(() => element.classList.remove("fade-out"), 10); // allow time for the element to be added to the DOM
-        }
-
-        // Function to dynamically load a JavaScript file
-        function loadScript(url, callback) {
-          const script = document.createElement("script");
-          script.src = url;
-          script.onload = callback;
-          document.head.appendChild(script);
-        }
-
-        // Create a container for the content
-        const container = document.createElement("div");
-        document.body.appendChild(container);
-
-        // Initially load loader.html
-        loadFile("./pages/loader.html", container, function () {
-          const loaderElement = container;
-          fadeIn(loaderElement);
-
-          // Load the loader.js script after loading loader.html
-          loadScript("./pages/loader.js", function () {
-            // After 3 seconds, load content.html with smooth transition
-            setTimeout(() => {
-              fadeOut(loaderElement, function () {
-                loadFile("./pages/content.html", container, function () {
-                  fadeIn(container);
-                });
-              });
-            }, 3000); // 3000 milliseconds = 3 seconds
-          });
-        });
-      });
-    </script>
   </head>
-  <body></body>
+  <body>
+    <div id="loader" class="loader-container">
+      <div class="whatsapp-logo">
+        <img src="./images/logo.svg" alt="WhatsApp Logo" />
+      </div>
+      <div class="slider">
+        <div class="slider-bar"></div>
+      </div>
+      <p>WhatsApp</p>
+      <p>End-to-end encrypted</p>
+    </div>
+
+    <div id="content" class="hidden">
+      <main>
+        <div class="green">
+          <nav>
+            <img src="./images/logo.svg" alt="" />
+            <h3>WhatsApp Web</h3>
+          </nav>
+        </div>
+        <div class="dialog">
+          <div class="container">
+            <div class="upper-box">
+              <div class="card">
+                <img src="./images/laptop.svg" class="laptop" alt="" />
+                <div class="grow">
+                  <h4>Download WhatsApp for Windows</h4>
+                  <div>
+                    <p>
+                      Get calling, screen sharing and a faster experience with
+                      the new Windows app.
+                    </p>
+                    <button class="btn">Get the App</button>
+                  </div>
+                </div>
+              </div>
+              <div class="content">
+                <div>
+                  <h2>Use WhatsApp on your computer</h2>
+                  <ol>
+                    <li>Open WhatsApp on your Phone.</li>
+                    <li>Tap Menu on Android, or Settings on iPhone</li>
+                    <li>Tap Linked devices and then link a device</li>
+                    <li>
+                      Point your phone at this screen to capture the QR code
+                    </li>
+                  </ol>
+                </div>
+                <img src="./images/qrcode.png" class="qr-code" alt="QR-Code" />
+              </div>
+              <div class="divider"></div>
+              <h3 class="title">Link with phone number</h3>
+            </div>
+            <div class="vid">
+              <h3>Tutorial</h3>
+              <p>Need help to get started?</p>
+              <video
+                autoplay
+                src="https://static.whatsapp.net/rsrc.php/yn/r/6swO8kJM8z2.mp4"
+                poster="https://static.whatsapp.net/rsrc.php/v3/y5/r/cJXjAoffU5Q.png"
+              ></video>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+    <script src="./pages/loader.js"></script>
+    <script src="./index.js"></script>
+  </body>
 </html>
