@@ -3,46 +3,71 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Whatsapp</title>
-    <link rel="stylesheet" href="style.css" />
+    <title>WhatsApp Web</title>
+    <link rel="shortcut icon" href="./images/logo.svg" type="image/x-icon">
+    <style>
+      .fade {
+        opacity: 1;
+        transition: opacity 1s;
+      }
+      .fade-out {
+        opacity: 0;
+      }
+    </style>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        // Function to load an HTML file into a container
+        function loadFile(url, container, callback) {
+          fetch(url)
+            .then((response) => response.text())
+            .then((data) => {
+              container.innerHTML = data;
+              if (callback) callback();
+            });
+        }
+
+        // Function to handle smooth transitions
+        function fadeOut(element, callback) {
+          element.classList.add("fade-out");
+          setTimeout(callback, 1000); // match the transition duration
+        }
+
+        function fadeIn(element) {
+          element.classList.add("fade");
+          setTimeout(() => element.classList.remove("fade-out"), 10); // allow time for the element to be added to the DOM
+        }
+
+        // Function to dynamically load a JavaScript file
+        function loadScript(url, callback) {
+          const script = document.createElement("script");
+          script.src = url;
+          script.onload = callback;
+          document.head.appendChild(script);
+        }
+
+        // Create a container for the content
+        const container = document.createElement("div");
+        document.body.appendChild(container);
+
+        // Initially load loader.html
+        loadFile("./pages/loader.html", container, function () {
+          const loaderElement = container;
+          fadeIn(loaderElement);
+
+          // Load the loader.js script after loading loader.html
+          loadScript("./pages/loader.js", function () {
+            // After 3 seconds, load content.html with smooth transition
+            setTimeout(() => {
+              fadeOut(loaderElement, function () {
+                loadFile("./pages/content.html", container, function () {
+                  fadeIn(container);
+                });
+              });
+            }, 3000); // 3000 milliseconds = 3 seconds
+          });
+        });
+      });
+    </script>
   </head>
-  <body>
-    <main>
-      <nav>
-        <img src="" alt="" srcset="" />
-      </nav>
-      <div>
-        <div>
-          <img src="" alt="" srcset="" />
-          <div>
-            <h4>Download Whatsapp for Windows</h4>
-            <p>
-              Get calling, screen sharing and a faster experience with the new
-              Windows app.
-            </p>
-          </div>
-          <button>Get the App</button>
-        </div>
-        <div class="container">
-          <div>
-            <h2>Use WhatsApp on your computer</h2>
-            <ol>
-              <li>Open WhatsApp on your Phone.</li>
-              <li>Tap Menu on Android, or Settings 'on Phone</li>
-              <li>Tap Linked devices and then link a device</li>
-              <li>Point your phone at this screen to capture the QR code</li>
-            </ol>
-          </div>
-          <img src="" alt="QR-Code" srcset="" />
-        </div>
-        <hr />
-        <h3>Link with Phone</h3>
-        <div class="vid">
-          <h3>Tutorial</h3>
-          <p>Need a help to get started?</p>
-          <video src="" controls></video>
-        </div>
-      </div>
-    </main>
-  </body>
+  <body></body>
 </html>
