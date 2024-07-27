@@ -31,5 +31,5 @@ instagram/
 ![Instagram Clone Login Page](./images/demo.png)
 
 ### Live Link
-Check out the live version of the project [here](instaram.vercel.app).
+Check out the live version of the project [here](https://instaram.vercel.app/).
 
